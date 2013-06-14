@@ -1,0 +1,33 @@
+1. Codifique um programa correspondente ao seguinte pseudo-código:
+int a = 2;
+int b = 1;
+int m = 0;
+m = a;
+if ( b < m )
+m = b;
+else
+m = 0;
+
+2. Codifique um programa correspondente a
+int a = ...;
+int b = ...;
+x = 0;
+if ( a >= 0 && a < b )
+x = 1;
+else if( a < 0 && a > b )
+x = 2;
+else
+x = 3
+
+3. Leia uma string da memória transforme as letras em letras minúsculas e coloque seus caracteres em ordem alfabética decrescente e salve-os (já ordenados) no mesmo lugar da memória. Se houver algum caractere que não seja letra, o valor 1 deverá ser armazenado no registrador v1 e o programa encerrado.
+Exemplo:
+entrada - "EntradA"
+saída - "aadenrt"
+
+4.Implemente (recursivamente) na linguagem de montagem do MIPS, uma função que receba dois números a e b ( b >= a) e retorne a soma de todos os números contidos no intervalo [a,b]. Se a > b, o valor 1 deverá ser armazenado no registrador v1 e o programa encerrado. 
+
+5. Desenvolva um programa que recebe como entrada um array de inteiros a e escreve em um outro array b todos os numeros primos contidos em a.
+Ex.: a = [2, 4, 7, 17, 25] → b = [2,7,17]
+Obs.: assuma que só serao testados números no intervalo [1, 100].
+
+6. Implemente um programa que recebe um inteiro como parâmetro e retorna número de Fibonacci do mesmo. Use recursão.
