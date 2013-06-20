@@ -1,6 +1,6 @@
 #include <Iregdef.h>
 .data
-	str: .asciiz "PALAV=RA"
+	str: .asciiz "EntRada" #altere aqui a string a ser ordenada
 	
 .text
 .global start
